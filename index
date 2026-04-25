@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Photography Suite</title>
+    <style>
+        body { font-family: sans-serif; background: #1a1a2e; color: #eaeaea; padding: 2rem; }
+        .container { max-width: 600px; margin: 0 auto; text-align: center; }
+        h1 { margin: 2rem 0; }
+        .apps { display: grid; gap: 2rem; margin: 2rem 0; }
+        .app-card { 
+            background: #0f3460; 
+            padding: 2rem; 
+            border-radius: 1rem;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s;
+        }
+        .app-card:hover { 
+            border-color: #00d4ff;
+            transform: translateY(-4px);
+        }
+        .app-card h2 { color: #00d4ff; margin-bottom: 0.5rem; }
+        .app-card p { color: #a0aec0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 AI Photography Suite</h1>
+        <p>Accessible image capture and description for everyone</p>
+        
+        <div class="apps">
+            <a href="https://[username].github.io/translating" class="app-card">
+                <h2>Translating</h2>
+                <p>Generate rich alt-text for social media and archives</p>
+                <small>Upload/capture → AI description → Instagram format</small>
+            </a>
+            
+            <a href="https://[username].github.io/live-camera" class="app-card">
+                <h2>Live Camera</h2>
+                <p>Smart photography with location-aware guidance</p>
+                <small>Location detection → Haptic/audio cues → Auto-description</small>
+            </a>
+        </div>
+        
+        <p style="margin-top: 3rem; color: #a0aec0; font-size: 0.875rem;">
+            Both apps work offline after loading. No data transmission. Privacy-first.
+        </p>
+    </div>
+</body>
+</html>
